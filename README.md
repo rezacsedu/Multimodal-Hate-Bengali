@@ -2,7 +2,7 @@
 This repository contains the Multimodal Bengali Hate Speech Dataset, data collection and annotation process, and supplementary information for our paper "Multimodal Hate Speech Detection from Bengali Memes and Texts", which has been accepted for oral presentation at International conference on Speech & Language Technology for Low-resource Languages (SPELLL). This dataset is the extended version of v2.0 of the "Bengali hate speech dataset" by Karim et al. ("Classification Benchmarks for Under-resourced Bengali Language based on Multichannel Convolutional-LSTM Network" in proc. of 7th IEEE International Conference on Data Science and Advanced Analytics (DSAA,2020) and "DeepHateExplainer: Explainable Hate Speech Detection in Under-resourced Bengali Language" in proc. of 8th IEEE International Conference on Data Science and Advanced Analytics (DSAA,2021)). 
 
 ### Warning!
-The memes and lexicons contain contents that are racist, sexist, homophobic, and offensive in different ways. Further, authors want to clarify that the dataset is collected and annotated from social media for research purposes only and not intended to hurt or offense any specific person, entity, or religious/political groups/parties. Please use it with your risk. 
+Memes and lexicons contain contents that are racist, sexist, homophobic, and offensive in different ways. Further, authors want to clarify that the dataset is collected and annotated from social media for research purposes only and not intended to hurt or offense any specific person, entity, or religious/political groups/parties. Please use it with your risk. 
 
 ### Data collection and annotation
 Bengali articles were collected from numerous sources from Bangladesh and India including a Bengali Wikipedia dump, Bengali news articles (Daily Prothom Alo, Daily Jugontor, Daily Nayadiganta, Anandabazar Patrika, Dainik Jugasankha, BBC, and Deutsche Welle), news dumps of TV channels (NTV, ETV Bangla, ZEE News), books, blogs, sports portal, and social media (Twitter, Facebook pages and groups, LinkedIn). Facebook pages (e.g., celebrities, athletes, sports, and politicians) and newspaper sources were scrutinized because composedly, they have about 50 million followers, and many opinions, hate speech and review texts come or spread out from there. Altogether, our raw text corpus consists of 250 million articles.  
@@ -30,7 +30,7 @@ Examples of Bengali hate speech, either directed or generalized towards a specif
 
 Examples of multimodal memes, where texts and visual information add relevant context for the hate speech detection: 
 
-<p align="left"><img src="images/memes.png?" width="900" height="500"></p>
+<p align="left"><img src="images/mm_memes.png?" width="900" height="500"></p>
 
 ### Data availability and citation request
 We will make the dataset publicly available for research. If you want to use the code of this repository or the dataset in your research, please consider citing  folowing paper:
